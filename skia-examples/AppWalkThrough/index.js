@@ -110,7 +110,7 @@ const SkiaAppWalkThrough = ({ positions, overlayColor, hintTextColor }) => {
   );
 };
 
-export default function Rain() {
+export default function App() {
   // ******* NOTE *******
   // this will work only on my mobile. (x, y, height, width, textYTransform)
   // try to make it generic using screen height/width (eg :-  {x: width/2, y: height/2})
