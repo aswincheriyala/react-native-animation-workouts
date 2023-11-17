@@ -112,8 +112,8 @@ const SkiaAppWalkThrough = ({ positions, overlayColor, hintTextColor }) => {
 
 export default function App() {
   // ******* NOTE *******
-  // this will work only on my mobile. (x, y, height, width, textYTransform)
-  // try to make it generic using screen height/width (eg :-  {x: width/2, y: height/2})
+  // this positions wont work on all screens. 
+  // try to make x, y, height, width values generic using screen height/width (eg :-  {x: width/2, y: height/2})
 
   const positions = [
     { x: 0, y: 0, height: 56, width: 70, radius: 25, hintText: 'Update your profile.', textYTransform: 20 },
